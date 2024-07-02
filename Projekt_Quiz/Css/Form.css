@@ -1,0 +1,131 @@
+* {
+    background-color: #70012B;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+h1 a {
+    color: #ffffff;
+    background: url('../Images/logo.jpg') no-repeat;
+    width: 240px;
+    height: 240px;
+    text-indent: -9999px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+section {
+    padding: 20px;
+    background-color: #5D0124;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h3, h2 {
+    color: #ffffff;
+}
+
+h3 {
+    background-color: #4B011D;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.one {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.two {
+    border: 2px solid #380116;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #380116;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    background-color: #25000E;
+    color: #ffffff;
+    border-radius: 25px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1em;
+}
+
+input[type="submit"]:hover {
+    opacity: 0.85;
+    transform: scale(1.05);
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #380116;
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+label {
+    color: #ffffff;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    margin-bottom: 1em;
+}
+.five {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
